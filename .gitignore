@@ -1,0 +1,8 @@
+/database.local.php
+/.env
+/.env.*
+!/.env.example
+*.log
+*.sql.bak
+*.sql.backup
+*.dump

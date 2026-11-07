@@ -1,0 +1,17 @@
+{
+  "name": "blck-co/blck-os",
+  "description": "Independent BLCK.OS module",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "ext-openssl": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "phpmailer/phpmailer": "^6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "BlckOS\\": "app/"
+    }
+  }
+}
